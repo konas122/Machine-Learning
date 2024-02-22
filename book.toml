@@ -1,0 +1,17 @@
+# https://giscus.app
+# https://github.com/badboy/mdbook-mermaid
+
+[book]
+title = "机器学习公式笔记"
+authors = ["konas122"]
+description = "机器学习白板推导笔记"
+language = "zh"
+multilingual = false
+src = "."
+
+[build]
+build-dir = "book"
+
+[output.html]
+mathjax-support = true
+git-repository-url = "https://github.com/konas122/Network-Programming"
